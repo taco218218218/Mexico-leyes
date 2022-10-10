@@ -1,7 +1,7 @@
 # Mexico leyes
- leyes fedrealyes 
+ leyes Federal y mas   
 
-
-I be adding all ythe mexico laws in easy to find and use 
++  English folder 
++ Leyes de trabajo 
 
 
