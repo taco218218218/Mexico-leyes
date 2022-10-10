@@ -11,14 +11,11 @@ Addition links
 
 
 
-https://github.com/yt-dlp/yt-dlp
-https://obsidian.md/
-https://markdownmonster.west-wind.com/
-http://markdownpad.com/
-https://caret.io/
-https://typora.io/ 
-https://www.editpadlite.com/index.html
 
+
+https://github.com/taco218218218?tab=repositories
+-
+https://github.com/taco218218218/Mexico-leyes
 
 
 
