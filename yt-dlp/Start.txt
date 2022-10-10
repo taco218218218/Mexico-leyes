@@ -1,0 +1,6 @@
+https://github.com/yt-dlp/yt-dlp
+
+
+https://github.com/yt-dlp/yt-dlp#installation
+
+yt-dlp.exe -i -a download.txt  --download-archive done.txt

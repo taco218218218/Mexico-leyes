@@ -1,0 +1,1 @@
+yt-dlp.exe -i -a download.txt  --download-archive done.txt
