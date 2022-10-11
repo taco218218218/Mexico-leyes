@@ -1,13 +1,15 @@
 # Mexico leyes
  leyes Federal y mas   
 
-+  English folder 
-+ Leyes de trabajo 
++Leyes Federales 
++ Leyes estado de guerrero 
 + ytl dp 
 +mermaid flowchart 
 + other additions  
 
-
++ Indigrid 
++ Clipboard manger 
++
 
 
 Addition links
