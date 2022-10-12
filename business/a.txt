@@ -2,3 +2,10 @@
 -,-,-,-,-,-, 
 welome 
 name	rate 
+business	-45000 
+business	-35 
+business	-25 
+business	-20 
+business	-45000 
+business	-45000 
+business	-45000 
