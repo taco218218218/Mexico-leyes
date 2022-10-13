@@ -1,1 +1,0 @@
-computer repai drechos 
