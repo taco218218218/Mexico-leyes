@@ -1,6 +1,6 @@
 cd /d %~dp0
-md batch
-cd batch
+md dump-format
+cd dump-format
 
 echo this is great> XXX.txt
 echo this is great> XXX.md
