@@ -1,0 +1,1 @@
+@echo off Rem mycopy sourceFile targetDir Set targetName=%~1 Set i=0 :nextName    If not exist "%~2/

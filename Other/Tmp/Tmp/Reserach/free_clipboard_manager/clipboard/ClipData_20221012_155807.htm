@@ -1,0 +1,20 @@
+Version:0.9
+StartHTML:00000221
+EndHTML:00000541
+StartFragment:00000255
+EndFragment:00000505
+SourceURL:https://stackoverflow.com/questions/14033582/make-a-batch-file-that-keeps-both-files-when-a-name-conflict-occurs
+<html><body>
+<!--StartFragment--><pre><code>@echo off
+Rem mycopy sourceFile targetDir
+Set targetName=%~1
+Set i=0
+:nextName
+   If not exist "%~2/%targetName%" goto copy
+   Set /A i+=1
+   Set targetName=%~1 (%i%)
+   Goto nextName
+:copy
+Copy %1 "%~2/%targetName%"</code></pre><!--EndFragment-->
+</body>
+</html>

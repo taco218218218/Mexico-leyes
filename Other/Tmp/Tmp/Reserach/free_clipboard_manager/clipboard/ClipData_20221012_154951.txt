@@ -1,0 +1,6 @@
+cd /d %~dp0
+
+
+echo this is great> start.txt
+echo this is great> start.md
+echo this is great> start.csv
