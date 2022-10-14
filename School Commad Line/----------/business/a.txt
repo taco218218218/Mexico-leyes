@@ -1,0 +1,11 @@
+45000	12	19	0.20	40	35	25	20	15	8	40	52	365	 
+-,-,-,-,-,-, 
+welome 
+name	rate 
+business	-45000 
+business	-35 
+business	-25 
+business	-20 
+business	-45000 
+business	-45000 
+business	-45000 
