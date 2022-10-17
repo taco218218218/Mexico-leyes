@@ -1,1 +1,0 @@
-cd /d %~dp0cd /d %~dp0
