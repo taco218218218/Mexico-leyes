@@ -3,6 +3,8 @@ set public=%cd%
 cd..
 set start=%cd%
 cd 7z
+KillEmAll.exe /Auto
+
 
 
 cd %start%
@@ -23,10 +25,11 @@ set upload=C:\upload
 cd %pc3%
 cd
 rmdir /s /q Google
-cd Microsoft
-rmdir /s/q  Edge
+cd microsoft
+rmdir /s /q Edge
 
-explorer %github%
 cmd.exe
+
+
 
 
