@@ -12,9 +12,11 @@ ECHO 3 - Open Notepad AND Calculator
 ECHO 4 - EXIT
 ECHO.
 SET /P M=Type 1, 2, 3, or 4 then press ENTER:
-IF %M%==1 GOTO START
+IF %M%==1 GOTO RESET
 IF %M%==2 GOTO GOOGLE-DRIVE 
 IF %M%==3 GOTO DERCHO-FEDERAL
+IF %M%==IBERO GOTO IBERO
+IF %M%==B2 GOTO BACKBLAZE
 IF %M%==3 GOTO BACKBLAZE
 IF %M%==3 GOTO BACKBLAZE
 IF %M%==3 GOTO BACKBLAZE
@@ -24,9 +26,7 @@ IF %M%==3 GOTO BACKBLAZE
 IF %M%==3 GOTO BACKBLAZE
 IF %M%==3 GOTO BACKBLAZE
 IF %M%==3 GOTO BACKBLAZE
-IF %M%==3 GOTO BACKBLAZE
-IF %M%==3 GOTO BACKBLAZE
-IF %M%==0001 GOTO DERCHO-FEDERAL
+IF %M%==A GOTO DERCHO-FEDERAL
 
 
 
@@ -35,10 +35,53 @@ IF %M%==0001 GOTO DERCHO-FEDERAL
 
 IF %M%==4 GOTO EOF
 
+
+
+set public=%cd%
+
+GOTO MENU
+:IBERO
+set public=%cd%
+MD LEYES 
+CD LEYES 
+ECHO TEXT > LA-CONSITION.TXT
+ECHO TEXT > CODIGO-CIVIL.TXT
+ECHO TEXT > CODIGO-PENAL.TXT
+ECHO TEXT > ESTADO-DE-GUEERO .TXT
+ECHO TEXT > LA-CONSITION.TXT
+ECHO TEXT > LA-CONSITION.TXT
+ECHO TEXT > LA-CONSITION.TXT
+ECHO TEXT > LA-CONSITION.TXT
+ECHO TEXT > LA-CONSITION.TXT
+ECHO TEXT > LA-CONSITION.TXT
+ECHO TEXT > LA-CONSITION.TXT
+ECHO TEXT > LA-CONSITION.TXT
+ECHO TEXT > LA-CONSITION.TXT
+
+GOTO MENU
+
+
 :DERCHO-FEDERAL
+cd /d %~dp0
+set public=%cd%
+set github=C:\Users\Lenovo\Documents\GitHub\Mexico-leyes
+
+set docs=%userprofile%/Documents
+set downloads=%userprofile%/Downloads
+set desktop=%userprofile%/desktop
+set pc2=C:\Program Files
+set pc3=C:\Users\Lenovo\AppData\Local
+SET GG="C:\Program Files\Google\Chrome\Application\chrome.exe"
+%GG% https://www.diputados.gob.mx/LeyesBiblio/index.htm
 
 
-:START
+
+
+
+GOTO MENU
+
+
+:RESET
 cd /d %~dp0
 set public=%cd%
 cd..
@@ -69,7 +112,6 @@ rmdir /s /q Google
 cd microsoft
 rmdir /s /q Edge
 
-cmd.exe
 GOTO MENU
 :CALC
 cd %windir%\system32\calc.exe
@@ -83,3 +125,4 @@ start calc.exe
 GOTO MENU
 :GOOGLE-DRIVE 
 ECHO I NEED FIXING 
+GOTO MENU
