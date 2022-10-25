@@ -43,7 +43,8 @@ cd %userprofile%/desktop
 echo my running debt is %debt% >business.txt
 echo exhange rate is %rate% >> business.txt
 echo credit debit is %credit% >> business.txt
-
+set 100=start https://www.youtube.com/watch?v=aI3q7V8bhJY
+set 101=start https://www.youtube.com/watch?v=cSQirnCMH5o
 start cmd 
 
 
