@@ -11,6 +11,14 @@ set rate=-45000
 set credit=-25000
 set debt=-45000
 
+set sublime=start 
+set repack=-start 
+set emeditor=start 
+set notepad=start 
+set Modern=start
+set blaze=start 
+set go=start https://www.google.com/search?q=
+
 
 set yt= start https://www.youtube.com/results?search_query=
 set xxx=start https://www.xvideos.com/?k=
@@ -36,10 +44,11 @@ echo my running debt is %debt% >business.txt
 echo exhange rate is %rate% >> business.txt
 echo credit debit is %credit% >> business.txt
 
+start cmd 
 
 
 
-
+echo lol
 
 
 
