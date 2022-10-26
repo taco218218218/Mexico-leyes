@@ -34,7 +34,7 @@ set 1-16=https://leyes-mx.com/constitucion/16.htm
 set 1-17=https://leyes-mx.com/constitucion/17.htm
 set 1-18=https://leyes-mx.com/constitucion/18.htm
 set 1-19=https://leyes-mx.com/constitucion/19.htm
-set gt=:NOTE
+set mic=start https://www.bing.com/search?q=
 set init=
 cls
 
