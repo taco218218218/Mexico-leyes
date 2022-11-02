@@ -1,5 +1,8 @@
-# will be redoing this in a few days to many folder and stuff 
+# welcome 
 
+## 11-1-2022 
+
+this is a new start 
 
 
 
