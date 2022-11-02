@@ -1,5 +1,4 @@
-
-
+cd /d %~dp0
 set 999=","
 set 888="."
 set 777="/"
@@ -39,17 +38,23 @@ set init=
 cls
 
 
-cd %userprofile%/desktop 
+
 echo my running debt is %debt% >business.txt
 echo exhange rate is %rate% >> business.txt
 echo credit debit is %credit% >> business.txt
 set 100=start https://www.youtube.com/watch?v=aI3q7V8bhJY
 set 101=start https://www.youtube.com/watch?v=cSQirnCMH5o
+
+call xxx.bat
+call face.bat
+call links.bat
+call desktop.bat
+call  master.bat
+
 start cmd 
 
 
 
-echo lol
 
 
 
